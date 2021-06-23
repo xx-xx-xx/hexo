@@ -1,21 +1,10 @@
-![Hexo Logo](https://github.com/vercel/vercel/blob/master/packages/frameworks/logos/hexo.svg)
+# README
 
-# Hexo Example
+Blog of xx
 
-This directory is a brief example of a [Hexo](https://hexo.io/) site that can be deployed with Vercel and zero configuration.
+## TODO
 
-## Deploy Your Own
-
-Deploy your own Hexo project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/hexo)
-
-_Live Example: https://hexo.now-examples.now.sh_
-
-### How We Created This Example
-
-To get started with Hexo for deployment with Vercel, you can use the [Hexo CLI](https://hexo.io/docs/index.html#Installation) to initialize the project:
-
-```shell
-$ hexo init project-name
-```
+- 搬运笔记
+- 改改这个丑丑的主题
+  - 字体大小问题，序号后不服从设置
+  - 主页不显示照片？

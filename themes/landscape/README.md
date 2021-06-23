@@ -32,7 +32,6 @@ git pull
 menu:
   Home: /
   Archives: /archives
-rss: /atom.xml
 
 # Content
 excerpt_link: Read More
