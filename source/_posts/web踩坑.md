@@ -1,7 +1,7 @@
 ---
 title: web踩坑
 date: 2021-06-24
-tags:
+tags: Frontend
 ---
 
 ## Tomcat
