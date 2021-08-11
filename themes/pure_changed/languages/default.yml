@@ -1,0 +1,70 @@
+menu:
+  Home: Home
+  Archives: Archives
+  Categories: Categories
+  Tags: Tags
+  Movies: Movies
+  Links: Links
+  About: About
+nav:
+  all: All
+  older: Older
+  newer: Newer
+page:
+  home: Home
+  archive: Archive
+  archives: Archives
+  category: Category
+  categories: Categories
+  tag: Tag
+  tags: Tags
+  tagcloud: Tag Cloud
+  uncategorized: Uncategorized
+  links: Links
+  links-desc: Welcome to the exchange link, you can leave a message on this page
+  about: About
+pagination: 
+  next: Next
+  prev: Prev
+  page: Page %d
+  pageof: Page %d of %s
+widget:
+  search: Search
+  archive: Archive
+  tags: Tags
+  categories: Categories
+  tagcloud: Tag Cloud
+  recent_posts: Recent Posts
+profile: 
+  follow: Follow
+  skill: Skills
+  label: Labels
+  work: Works
+  project: Projects
+  link: Links
+insight:
+  hint: Type something...
+  posts: Posts
+  pages: Pages
+  categories: Categories
+  tags: Tags
+  untitled: (Untitled)
+unit:
+  word: words
+  time: minutes
+article:
+  wordcount: Word Count
+  readcount: Read Count
+  more: Read More
+  comments: Comments
+  share: Share
+  catalogue: Catalogue
+total:
+  article: Total %d articles
+  tag: Total %d tags
+  category: Total %d categories
+  link: Total %d links
+comment: Comment
+tweets: Tweets
+share: Share
+rss_feed: RSS Feed
