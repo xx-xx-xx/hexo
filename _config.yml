@@ -34,7 +34,7 @@ default_layout: post
 titlecase: false # Transform title into titlecase
 # external_link: true # Open external links in new tab
 external_link:
-  enable: true # Open external links in new tab
+  enable: false # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
 filename_case: 0
@@ -101,4 +101,30 @@ markdown:
     - markdown-it-sub
     - markdown-it-abbr
     - markdown-it-emoji
+    
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: false
+    - plugin:
+        name: markdown-it-mark
+        enable: false  
+    - plugin:
+        name: markdown-it-mermaid
+        enable: true
+
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true
+  version: "7.1.2"
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true
 
