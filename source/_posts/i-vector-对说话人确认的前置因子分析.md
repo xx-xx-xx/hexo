@@ -4,8 +4,6 @@ date: 2021-08-05 20:15:29
 tags: SpeakerRecognition
 ---
 
-## i-vector 对说话人确认的前置因子分析
-
 身份向量identity vector
 
 总体变化空间total variability space：定义了一个新的低维的依赖于说话人和信道的空间
