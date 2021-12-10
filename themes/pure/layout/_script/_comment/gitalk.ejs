@@ -10,7 +10,7 @@
     owner: '<%= theme.comment.gitalk.owner %>',
     admin: ['<%= theme.comment.gitalk.admin %>'],
     id: md5(location.pathname),
-    proxy: 'https://blooming-shore-57168.herokuapp.com/',
+    proxy: 'https://blooming-shore-57168.herokuapp.com/https://github.com/login/oauth/access_token',
     distractionFreeMode: true
   })
   gitalk.render('comments')
