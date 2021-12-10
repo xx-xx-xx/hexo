@@ -5,7 +5,6 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
 
@@ -17,7 +16,6 @@ menu_icons:
   categories: icon-folder
   tags: icon-tags
   repository: icon-project
-  books: icon-book-fill
   links: icon-friendship
   about: icon-cup-fill
 
@@ -89,7 +87,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type: gitalk  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
@@ -102,11 +100,11 @@ comment:
     ClientSecret: 
     lazy: false
   gitalk: # gitalk. https://gitalk.github.io/
-    owner:  #必须. GitHub repository 所有者，可以是个人或者组织。
-    admin:  #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo:  #必须. GitHub repository.
-    ClientID:  #必须. GitHub Application Client ID.
-    ClientSecret:  #必须. GitHub Application Client Secret.
+    owner:  xx-xx-xx #必须. GitHub repository 所有者，可以是个人或者组织。
+    admin: xx-xx-xx #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+    repo: hexo #必须. GitHub repository.
+    ClientID: a4f7200ed011a219c9cc #必须. GitHub Application Client ID.
+    ClientSecret: b07e99083508f2eb5e9634608044e7830c08d50e #必须. GitHub Application Client Secret.
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
@@ -118,23 +116,6 @@ comment:
     pageSize: 10 # pagination size
     visitor: false # Article reading statistic https://valine.js.org/visitor.html
 
-# douban 豆瓣书单
-# Api：
-  # https://developers.douban.com/wiki/?title=book_v2 图书
-  # https://developers.douban.com/wiki/?title=movie_v2 电影
-# books：  
-  # https://api.douban.com/v2/book/user/:name/collections?start=0&count=100 个人书单列表
-# movies: 
-  # https://api.douban.com/v2/movie/in_theaters 正在上映的电影
-  # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
-  # https://api.douban.com/v2/movie/subject/:id 单个电影信息
-  # https://api.douban.com/v2/movie/search?q={text} 电影搜索
-douban:
-  user: # 豆瓣用户名
-  start: 0 # 从哪一条记录开始
-  count: 100 # 获取豆瓣书单数据条数
-  apikey: # 豆瓣apikey
-  
 # PV
 pv:
   busuanzi:

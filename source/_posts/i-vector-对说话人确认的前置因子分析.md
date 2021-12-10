@@ -1,6 +1,7 @@
 ---
 title: i-vector 对说话人确认的前置因子分析
 date: 2021-08-05 20:15:29
+categories: PaperReading
 tags: SpeakerRecognition
 ---
 

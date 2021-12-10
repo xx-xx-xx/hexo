@@ -1,8 +1,12 @@
 ---
-title: 关于
-description: 个人简介
+title: About
+description: Who am i
 layout: about
 comments: false
 sidebar: custom
 ---
-个人详细介绍
+
+:surfer: 网上冲浪十级选手
+
+:fishing_pole_and_fish: 多年钓鱼爱好者
+
