@@ -2650,6 +2650,7 @@ a.thumbnail.active {
 .media-body {
   zoom: 1;
   overflow: hidden;
+  line-height: 4;
 }
 
 .media-body {
@@ -2679,6 +2680,7 @@ a.thumbnail.active {
 .media-body {
   display: table-cell;
   vertical-align: top;
+  padding-left: 20px;
 }
 
 .media-middle {
@@ -2702,7 +2704,7 @@ a.thumbnail.active {
 }
 
 .media-heading {
-  margin-top: 0;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -4790,8 +4792,8 @@ a.label:focus {
   border-bottom-left-radius: 3px;
 }
 
-/**
- * panel-group-base
+/*
+ panel-group-base
  */
 
 .panel.b-no {

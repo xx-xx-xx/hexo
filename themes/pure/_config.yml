@@ -5,6 +5,7 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
+  Gallery: gallery
   Links: links  # 友链
   About: about  # 关于
 
@@ -18,7 +19,7 @@ menu_icons:
   repository: icon-project
   links: icon-friendship
   about: icon-cup-fill
-
+  gallery: icon-book-fill
 # rss
 rss: /atom.xml
 
@@ -72,7 +73,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Search
 search:

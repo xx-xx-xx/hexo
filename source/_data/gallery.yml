@@ -1,5 +1,15 @@
 # Gallery
-Name:
-    full_link: http://example.com/full-image.png
-    thumb_link: http://example.com/thumb-image.png
-    descr: "这是一个描述"
+xx: # 图片名字
+    link: https://gitee.com/xx-xx-xx/images/raw/master/img/20210308183021.png # 完整图片的地址
+    avatar: /images/gallery/photo.jpg # 图片缩略图的地址
+    desc: "haha" # 图片描述
+
+az: 
+    link: /images/gallery/photo.jpg
+    avatar: /images/gallery/photo.jpg
+    desc: "我不理解"
+
+子相册: 
+    link: /gallery/photo1
+    avatar: /images/gallery/photo.jpg
+    desc: "我不理解"

@@ -1,0 +1,5 @@
+# Gallery
+xx: # 图片名字
+    link: https://gitee.com/xx-xx-xx/images/raw/master/img/20210308183021.png # 完整图片的地址
+    avatar: /images/gallery/photo.jpg # 图片缩略图的地址
+    desc: "haha" # 图片描述

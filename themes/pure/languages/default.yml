@@ -4,8 +4,7 @@ menu:
   Categories: Categories
   Tags: Tags
   Repository: Repository
-  Books: Books
-  Movies: Movies
+  Gallery: Gallery
   Links: Links
   About: About
 nav:
@@ -23,8 +22,10 @@ page:
   tagcloud: Tag Cloud
   uncategorized: Uncategorized
   repository: Repository
+  gallery: Gallery
   links: Links
-  links-desc: Welcome to the exchange link, you can leave a message on this page
+  links-desc: 欢迎滴滴
+  gallery-desc: 一些相册
   about: About
 pagination: 
   next: Next

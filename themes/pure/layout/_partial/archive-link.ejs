@@ -5,14 +5,14 @@
       <%= __('page.links-desc') %>
     </p>
   </header>
-  <div class="article-body">
+  <div class="panel-body">
     <div class="row">
       <% for (var link in site.data.links) { %>
         <% var item = site.data.links[link]; %>
           <div class="col-sm-6 col-md-4">
             <div class="panel panel-default hover-shadow hover-grow">
               <figure class="media media-middle">
-                <div class="media-left pr-no">
+                <div class="media-left pr-2x">
                   <a href="<%= item.link %>" target="_blank" class="img-burn thumb-md media-middle">
                     <img src="<%= item.avatar %>" class="w-full" alt="">
                   </a>
