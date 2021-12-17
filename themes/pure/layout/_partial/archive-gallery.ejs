@@ -5,6 +5,16 @@
         <%= __('page.gallery-desc') %>
       </p>
     </header>
+    <!-- Use NoPrint.js to disable print -->
+    <script language="javascript">
+      var noPrint=true;
+      var noCopy=true;
+      var noScreenshot=true;
+      var autoBlur=true;
+      </script>
+      
+    <script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script>
+
     <div class="panel-body">
       <div class="row">
         <% for (var link in site.data.gallery) { %>
