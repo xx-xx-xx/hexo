@@ -134,7 +134,7 @@ embedding DNN也改进很大，比PLDA有效。
 
 joint-vector 联合向量
 
-##d-vector 说话人确认
+## d-vector 说话人确认
 
 deep vector 嵌入码
 
