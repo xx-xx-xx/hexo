@@ -1,15 +1,10 @@
 # Gallery
-xx: # 图片名字
-    link: https://gitee.com/xx-xx-xx/images/raw/master/img/20210308183021.png # 完整图片的地址
-    avatar: /images/gallery/photo.jpg # 图片缩略图的地址
-    desc: "haha" # 图片描述
+郭庄: # 相册
+    link: /2021/11/10/郭庄/ # 相册地址
+    avatar: /images/gallery/郭庄.jpg # 封面地址
+    desc: "人像" # 相册描述
 
-az: 
+啊这: 
     link: /images/gallery/photo.jpg
-    avatar: /images/gallery/photo.jpg
-    desc: "我不理解"
-
-子相册: 
-    link: /gallery/photo1
     avatar: /images/gallery/photo.jpg
     desc: "我不理解"

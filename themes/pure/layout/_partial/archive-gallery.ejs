@@ -1,4 +1,7 @@
 <article class="article article-gallery article-type-list" itemscope="">
+    <!-- include csshake -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css"> -->
+    
     <header class="article-header">
       <h1 itemprop="title"><%= page.title %></h1>
       <p class="text-muted">
@@ -6,20 +9,33 @@
       </p>
     </header>
     <!-- Use NoPrint.js to disable print -->
-    <script language="javascript">
+    <!-- <script language="javascript">
       var noPrint=true;
       var noCopy=true;
       var noScreenshot=true;
       var autoBlur=true;
-      </script>
-      
-    <script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script>
+    </script>
+    <script type="text/javascript" src="https://pdfanticopy.com/noprint.js"></script> -->
+
+
+    <!-- 屏蔽shift ctrl alt防止快捷键截图 -->
+    <!-- <script>
+      function lock(){ 
+      if(event.shiftKey||event.ctrlKey||event.altKey) 
+        event.keyCode=0;
+        event.returnValue=false;
+        // 清空整个页面
+        document.body.innerHTML="";
+        // alert("达咩！");
+      }
+      document.onkeydown=lock; 
+    </script> -->
 
     <div class="panel-body">
       <div class="row">
         <% for (var link in site.data.gallery) { %>
           <% var item = site.data.gallery[link]; %>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-9 col-md-6">
               <div class="panel panel-default hover-shadow hover-grow">
                 <figure class="media media-middle" >
                   <div class="media-left pr-2x" >
